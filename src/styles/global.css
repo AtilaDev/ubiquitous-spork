@@ -1,5 +1,5 @@
 html {
-  background-color: #f1f5f9;
+  background-color: #ddd;
   font-family: sans-serif;
 }
 
@@ -137,4 +137,16 @@ a:focus {
   .hamburger {
     display: none;
   }
+}
+
+html.dark {
+  background-color: #0d0950;
+  color: #fff;
+}
+
+.dark .nav-links a {
+  color: #fff;
+}
+.dark li {
+  color: #aaa;
 }
